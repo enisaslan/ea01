@@ -204,6 +204,48 @@
 		(uuid "ff659461-654b-404b-92ca-773be50747d1")
 	)
 	(sheet
+		(at 95.25 60.96)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c19557e-ba3d-4fc0-bf85-5d53c02ff2e2")
+		(property "Sheetname" "buttons"
+			(at 95.25 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 95.25 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 81.28)
 		(size 26.67 11.43)
 		(exclude_from_sim no)

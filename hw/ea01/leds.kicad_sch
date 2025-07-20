@@ -1880,7 +1880,7 @@
 			)
 		)
 	)
-	(global_label "OUT_LED"
+	(global_label "OUT1_LED"
 		(shape input)
 		(at 209.55 71.12 180)
 		(fields_autoplaced yes)
@@ -1892,7 +1892,7 @@
 		)
 		(uuid "3ccd30cf-b7c7-4e31-807e-16d2f2759d57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.5215 71.12 0)
+			(at 197.312 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

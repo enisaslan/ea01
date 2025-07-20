@@ -596,7 +596,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "RTC & EEPROM",
     "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -640,6 +640,10 @@
     [
       "6ca3256c-d43a-4bc8-af54-e996b7798b54",
       "rs485"
+    ],
+    [
+      "2c19557e-ba3d-4fc0-bf85-5d53c02ff2e2",
+      "buttons"
     ]
   ],
   "text_variables": {}

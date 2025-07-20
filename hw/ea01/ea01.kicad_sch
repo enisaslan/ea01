@@ -1,0 +1,506 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1c1d47d5-f6ab-48f4-aef9-e333cdfe2713")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 155.702 93.218)
+		(end 169.672 102.108)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 080724bf-0689-4cfa-b7b3-f2b77f3081d5)
+	)
+	(rectangle
+		(start 195.326 95.25)
+		(end 209.296 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c0c700b-6c74-41b8-8174-b3b7fc12c3c7)
+	)
+	(rectangle
+		(start 195.326 71.12)
+		(end 209.296 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 69fe230f-c8a0-4256-a34e-6dfee1558c5c)
+	)
+	(rectangle
+		(start 194.818 83.058)
+		(end 208.788 91.948)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 848ed6e2-fa77-44d6-b2d5-6020ce1399cb)
+	)
+	(rectangle
+		(start 155.702 83.058)
+		(end 169.672 91.948)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87dc3d0b-46b4-427e-a99c-ed7ca1fd687a)
+	)
+	(rectangle
+		(start 156.464 72.136)
+		(end 170.434 81.026)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a1782d19-ff7d-45d9-ba9b-68c53f26c452)
+	)
+	(rectangle
+		(start 173.736 81.026)
+		(end 191.516 93.726)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid acac81d4-40a2-45d4-9422-4949d41b2540)
+	)
+	(rectangle
+		(start 176.022 67.818)
+		(end 189.992 76.708)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bda5bdb7-c5b1-4e4b-9d5d-2f0908939339)
+	)
+	(rectangle
+		(start 176.022 98.298)
+		(end 189.992 107.188)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fcd1ea89-ad86-4a84-80f0-6d8d35d05179)
+	)
+	(text "DIGITAL\nINPUTS"
+		(exclude_from_sim no)
+		(at 162.56 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "293c5d2e-354d-414a-8422-076feb5d9d21")
+	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 182.88 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4808242e-0602-4190-9cdb-caaff3088ea2")
+	)
+	(text "LED OUTPUTS"
+		(exclude_from_sim no)
+		(at 201.93 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4972d5d3-0fdc-4d02-a483-eaf9b4103df9")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 182.88 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f3c99a2-1b7f-4f31-8d7a-94f22229c923")
+	)
+	(text "RS485"
+		(exclude_from_sim no)
+		(at 162.56 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fdbc46c-398b-40a7-be4d-f08043bdb21f")
+	)
+	(text "RTC"
+		(exclude_from_sim no)
+		(at 163.322 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63a49ec4-7ae9-4338-9d74-f660ee3733c5")
+	)
+	(text "BUTTON\nINPUTS"
+		(exclude_from_sim no)
+		(at 202.184 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a14391f4-59b1-4c5c-a550-68bc7b43949c")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 182.88 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1f22660-f467-44f1-befb-e3152893d806")
+	)
+	(text "RELAY \nOUTPUTS"
+		(exclude_from_sim no)
+		(at 202.184 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff659461-654b-404b-92ca-773be50747d1")
+	)
+	(sheet
+		(at 63.5 81.28)
+		(size 26.67 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ca3256c-d43a-4bc8-af54-e996b7798b54")
+		(property "Sheetname" "rs485"
+			(at 63.5 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs485.kicad_sch"
+			(at 63.5 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 60.96)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cd6b734-981f-48ab-a3a3-cd9a1ed99af0")
+		(property "Sheetname" "leds"
+			(at 63.5 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 63.5 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 46.99)
+		(size 26.67 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a35c246-4e04-4a22-aed7-9080acb84208")
+		(property "Sheetname" "inputs"
+			(at 63.5 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputs.kicad_sch"
+			(at 63.5 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 81.28)
+		(size 30.48 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c254b1ee-5d80-44f4-b3d6-0ba2c07a68ad")
+		(property "Sheetname" "rtc_eeprom"
+			(at 26.67 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rtc.kicad_sch"
+			(at 26.67 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 46.99)
+		(size 30.48 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3810c5d-87fe-4ffb-a7ba-b811c8939351")
+		(property "Sheetname" "mcu"
+			(at 26.67 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 26.67 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 46.99)
+		(size 27.94 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e690f818-2646-48ee-9937-af159d509942")
+		(property "Sheetname" "outputs"
+			(at 95.25 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outputs.kicad_sch"
+			(at 95.25 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 64.77)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f041ca07-f3b7-46d5-ae07-a8c4690a00ff")
+		(property "Sheetname" "power"
+			(at 26.67 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 26.67 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

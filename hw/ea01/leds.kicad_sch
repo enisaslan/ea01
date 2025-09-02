@@ -5371,7 +5371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_15x7.5RM7.6"
 			(at 67.945 104.14 90)
 			(effects
 				(font

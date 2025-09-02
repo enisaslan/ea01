@@ -3692,7 +3692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 200.66 113.03 0)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 36.83 123.698 90)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 200.66 33.02 0)
 			(effects
 				(font
@@ -5907,7 +5907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 38.1 100.838 90)
 			(effects
 				(font

@@ -10238,7 +10238,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "427e509a-df5f-4cc5-87a3-e119729dea77")
-		(at 97 66 180)
+		(at 97.525 66.3 180)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q11"
@@ -10573,7 +10573,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "450b2a8a-1e9f-471a-92fb-f48dc187148b")
-		(at 96.5 63.25)
+		(at 97.025 63.55)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R80"
@@ -11891,7 +11891,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "538a2014-5d6d-49a5-aec8-59e95ff9b0a4")
-		(at 99 68.5 180)
+		(at 98.825 68.9 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R78"
@@ -14092,7 +14092,7 @@
 	(footprint "Relay_THT:Relay_SPST_Omron_G5NB"
 		(layer "F.Cu")
 		(uuid "63bd2f57-6af0-44d0-ae4e-d84aa159deb2")
-		(at 93.5825 60.2825 180)
+		(at 93.7 60.5 180)
 		(descr "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC), 20.5x7.2x15.3mm max")
 		(tags "Omron G5NB Relay SPST-NO")
 		(property "Reference" "K1"
@@ -14668,7 +14668,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "659fb866-5f6e-49fd-bd57-17d170aeee78")
-		(at 96.825 56.25)
+		(at 97.075 55.75)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R71"
@@ -19565,7 +19565,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9c5fdc63-f97a-48ca-9404-9dc95ab220b6")
-		(at 99.825 59 90)
+		(at 100.075 58.5 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R70"
@@ -22327,7 +22327,7 @@
 	(footprint "Relay_THT:Relay_SPST_Omron_G5NB"
 		(layer "F.Cu")
 		(uuid "b190de9a-af11-4a84-b588-03f33ed14c09")
-		(at 93.5825 68.2825 180)
+		(at 93.7 68.2825 180)
 		(descr "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC), 20.5x7.2x15.3mm max")
 		(tags "Omron G5NB Relay SPST-NO")
 		(property "Reference" "K2"
@@ -23629,7 +23629,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b8b13f45-f929-4c6d-9d13-ddfa4c3b24ea")
-		(at 99.75 66 90)
+		(at 100.275 66.3 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R79"
@@ -34704,7 +34704,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e0f6dd3d-9026-4dd2-9b3d-f60a15b25a67")
-		(at 99.075 61.5 180)
+		(at 99.325 61 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R69"
@@ -36412,7 +36412,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "e8ec3f19-c57d-43cb-bc83-23c5401f92f3")
-		(at 97.1375 58.95 180)
+		(at 97.3875 58.45 180)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q9"

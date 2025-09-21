@@ -2119,6 +2119,46 @@
 		)
 		(uuid "fafe9937-38a3-4a12-b117-a104f641c7b6")
 	)
+	(label "R0_A"
+		(at 185.42 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90df6c73-5438-4792-873f-ce9ade9aa58d")
+	)
+	(label "R1_B"
+		(at 185.42 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97273464-a2de-43ff-86aa-c32c7c0fffaa")
+	)
+	(label "R1_A"
+		(at 185.42 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dfb0aaf-1c6f-4df2-891d-85c6a895d43e")
+	)
+	(label "R0_B"
+		(at 185.42 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2a39d11-6940-426c-8036-196a7ffae089")
+	)
 	(global_label "OUT1"
 		(shape input)
 		(at 121.92 139.7 180)

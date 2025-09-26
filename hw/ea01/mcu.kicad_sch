@@ -3972,16 +3972,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 187.96 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea172bf-8696-4b71-b99e-4a80cb0dd0bb")
-	)
-	(wire
-		(pts
 			(xy 53.34 187.96) (xy 53.34 190.5)
 		)
 		(stroke
@@ -5687,28 +5677,6 @@
 		(uuid "f67cf8c7-9512-4a09-8355-397301c00e1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.9842 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUZZER"
-		(shape input)
-		(at 187.96 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9d51b8e-50a5-423f-b49f-34fe53789f17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3837 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

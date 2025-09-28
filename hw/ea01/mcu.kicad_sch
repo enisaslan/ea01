@@ -3752,6 +3752,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 128.27) (xy 182.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a69c986-4e8e-4164-9fb6-7cc70e0aa551")
+	)
+	(wire
+		(pts
 			(xy 149.86 46.99) (xy 152.4 46.99)
 		)
 		(stroke
@@ -5655,6 +5665,28 @@
 		(uuid "c13e0629-26e2-4f87-a6a5-e565c58712a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.5047 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BOARD_TEMP"
+		(shape input)
+		(at 182.88 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cff07caa-0d48-4b95-a2c4-7b62a44023ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.8999 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

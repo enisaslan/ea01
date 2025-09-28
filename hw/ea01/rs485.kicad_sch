@@ -1392,6 +1392,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 87.63) (xy 217.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3718c2d7-4b36-4ce3-8c11-7f7c65e3d16e")
+	)
+	(wire
+		(pts
 			(xy 111.76 68.58) (xy 111.76 71.12)
 		)
 		(stroke
@@ -1412,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 85.09) (xy 222.25 85.09)
+			(xy 187.96 85.09) (xy 229.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 82.55) (xy 222.25 82.55)
+			(xy 203.2 82.55) (xy 229.87 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1599,16 +1609,6 @@
 			(type default)
 		)
 		(uuid "aceab817-245a-45ab-a443-a4e7e4f04da7")
-	)
-	(wire
-		(pts
-			(xy 219.71 87.63) (xy 222.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae566986-3f53-4722-866d-bfd95538b6d6")
 	)
 	(wire
 		(pts
@@ -1692,6 +1692,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 87.63) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daee11a7-8d9c-4741-95c8-68fabf2af648")
+	)
+	(wire
+		(pts
 			(xy 99.06 68.58) (xy 99.06 71.12)
 		)
 		(stroke
@@ -1712,23 +1722,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 101.6) (xy 219.71 105.41)
+			(xy 217.17 101.6) (xy 217.17 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7658a1f-2fa5-4120-9b40-13ca6c221de0")
-	)
-	(wire
-		(pts
-			(xy 219.71 93.98) (xy 219.71 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea179237-a7cb-4a98-bd44-be74ce8d179e")
 	)
 	(wire
 		(pts
@@ -1789,6 +1789,36 @@
 			(type default)
 		)
 		(uuid "ffa568bb-9822-471a-86a4-8e1687920b00")
+	)
+	(label "RS485_GND"
+		(at 217.17 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "540ecc03-ed69-4918-8282-1169cb220f6e")
+	)
+	(label "RS485_B"
+		(at 217.17 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58d59457-ff64-43d4-b3bf-2a96de4e89fb")
+	)
+	(label "RS485_A"
+		(at 217.17 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf03b111-9b31-4b53-b008-4d0b77faaa04")
 	)
 	(global_label "RS485_TX"
 		(shape input)
@@ -2003,7 +2033,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 227.33 85.09 0)
+		(at 234.95 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2012,7 +2042,7 @@
 		(fields_autoplaced yes)
 		(uuid "21fe8896-dc18-4280-a820-635bef2b5e64")
 		(property "Reference" "J6"
-			(at 229.87 83.8199 0)
+			(at 237.49 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2051,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 229.87 86.3599 0)
+			(at 237.49 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2060,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
-			(at 227.33 85.09 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 85.09 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2078,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 85.09 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 105.41 0)
+		(at 217.17 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2510,7 +2540,7 @@
 		(fields_autoplaced yes)
 		(uuid "60fc3cae-9a47-4eb0-b424-88733bb9bfaf")
 		(property "Reference" "#PWR0147"
-			(at 219.71 111.76 0)
+			(at 217.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 110.49 0)
+			(at 217.17 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 105.41 0)
+			(at 217.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 105.41 0)
+			(at 217.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 105.41 0)
+			(at 217.17 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3537,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 219.71 97.79 0)
+		(at 217.17 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3516,7 +3546,7 @@
 		(fields_autoplaced yes)
 		(uuid "df141d8e-fb6d-4738-99c6-8d39d455bbb8")
 		(property "Reference" "FB4"
-			(at 223.52 96.4691 0)
+			(at 220.98 96.4691 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3555,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 223.52 99.0091 0)
+			(at 220.98 99.0091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3564,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 217.932 97.79 90)
+			(at 215.392 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 97.79 0)
+			(at 217.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3582,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 219.71 97.79 0)
+			(at 217.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2746,6 +2746,270 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:NUP2105L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NUP2105L"
+				(at 5.715 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.715 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "can esd protection suppression transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NUP2105L_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NUP2105L_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.175 0.635) (xy -1.905 0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -1.905 -0.635) (xy -3.175 -0.635) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -3.175 1.905) (xy -1.905 1.905) (xy -2.54 0.635) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 0.635) (xy 2.54 0.635) (xy 3.175 0.635) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 1.905 -0.635) (xy 3.175 -0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 3.175 1.905) (xy 1.905 1.905) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NUP2105L_1_1"
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -3223,6 +3487,18 @@
 		(uuid "972d0b13-77dc-452c-905c-67c62d138b4c")
 	)
 	(junction
+		(at 62.23 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f9bcc7d-a1b1-4d75-b5f9-9db50c8f2388")
+	)
+	(junction
+		(at 67.31 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24e83b8-7c2f-4f3a-b926-eb21338999d5")
+	)
+	(junction
 		(at 220.98 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3289,6 +3565,16 @@
 			(type default)
 		)
 		(uuid "0203bb41-ecbb-4bf7-9bc7-dde6318e2763")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 82.55 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e6f576-70ad-46bf-9016-55d21cdefd59")
 	)
 	(wire
 		(pts
@@ -3512,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 34.29) (xy 82.55 34.29)
+			(xy 36.83 34.29) (xy 67.31 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3579,6 +3865,16 @@
 			(type default)
 		)
 		(uuid "2b460ceb-327a-4ff6-ad85-26325192ccb6")
+	)
+	(wire
+		(pts
+			(xy 62.23 31.75) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6faa3a-e45b-4b4b-993f-abc9867aff31")
 	)
 	(wire
 		(pts
@@ -3832,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 49.53) (xy 64.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515c517e-a945-4778-ad7c-4ead74734e7d")
+	)
+	(wire
+		(pts
 			(xy 97.79 140.97) (xy 106.68 140.97)
 		)
 		(stroke
@@ -4002,7 +4308,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 31.75) (xy 85.09 31.75)
+			(xy 36.83 31.75) (xy 62.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4139,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "77054a21-d48d-4065-99fe-69a8f436775d")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 67.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a81ce83-369b-4453-95f6-45fb32fb209e")
 	)
 	(wire
 		(pts
@@ -4449,6 +4765,16 @@
 			(type default)
 		)
 		(uuid "a594351f-167a-420f-9ca8-10d6161ac985")
+	)
+	(wire
+		(pts
+			(xy 62.23 31.75) (xy 85.09 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a651346f-5571-4208-acd8-7a770f57c3bf")
 	)
 	(wire
 		(pts
@@ -8014,6 +8340,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 64.77 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c9a9e4a-307c-4aaf-86ad-4a2a7f11cbab")
+		(property "Reference" "#PWR034"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b28ded70-42ff-4ff8-ba07-56a3050af94f")
+		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713/d3810c5d-87fe-4ffb-a7ba-b811c8939351"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 116.84 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8282,6 +8674,80 @@
 			(project "ea01"
 				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713/d3810c5d-87fe-4ffb-a7ba-b811c8939351"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:NUP2105L")
+		(at 64.77 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "629c4950-7229-49c2-a948-055bd4a12e78")
+		(property "Reference" "D1"
+			(at 71.12 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUP2105L"
+			(at 71.12 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 70.485 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+			(at 67.945 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250af188-ab8d-4078-bf3c-e9109fa04634")
+		)
+		(pin "2"
+			(uuid "41900538-7013-464f-891f-edc118f60ca2")
+		)
+		(pin "3"
+			(uuid "46c0d8e0-8fdd-4e89-9d82-e2a6cb36e9e0")
+		)
+		(instances
+			(project ""
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713/d3810c5d-87fe-4ffb-a7ba-b811c8939351"
+					(reference "D1")
 					(unit 1)
 				)
 			)

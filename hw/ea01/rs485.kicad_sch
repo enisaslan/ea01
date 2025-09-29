@@ -2095,6 +2095,14 @@
 		(pin "3"
 			(uuid "db20b0a9-92c8-4842-a05a-b3344e11500b")
 		)
+		(instances
+			(project "ea01"
+				(path "/1c1d47d5-f6ab-48f4-aef9-e333cdfe2713/6ca3256c-d43a-4bc8-af54-e996b7798b54"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:SMAJ24A")

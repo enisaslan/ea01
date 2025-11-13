@@ -510,7 +510,7 @@
       "plot": "/home/enis/Desktop/ea01/hw/ea01/outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ea01.step",
       "svg": "",
       "vrml": ""
     },
